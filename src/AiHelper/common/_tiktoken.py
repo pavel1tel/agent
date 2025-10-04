@@ -8,6 +8,7 @@ import warnings
 from src.AiHelper.common._logger import RobotCustomLogger
 from src.AiHelper.config.model_config import ModelConfig
 
+
 @dataclass
 class TokenStats:
     total_tokens: int
